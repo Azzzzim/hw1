@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+    
+}
+/* NAVIGATION BAR */
+ul,li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    
+
+}
+.item{
+    margin-top: 50px;
+
+}
+.pic5{
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    margin-left: 70px;
+    margin-right: 824px;
+}
+.pic1{
+    margin-right: 45px;
+}
+.pic2{
+    margin-right: 8px;
+}
+
+.container{
+    margin: auto;
+}
+i{
+    background: none;
+    color: black;
+}
+/* navs 2 boxes */
+.card{ 
+    margin-top: 40px;
+    font-size: 14px;
+    line-height: 20px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 20px;
+
+position: static;
+width: 111px;
+height: 36px;
+left: 0px;
+top: 0px;
+
+}
+
+.box1{
+    
+    color: darkcyan;
+    
+}
+.link2{ 
+    color: white;
+    text-decoration: none;
+}
+.link1{
+    color: #156963;
+}
+
+.box2{
+    background: #156963;
+
+    color: white;
+
+}
+a{
+    text-decoration: none;
+}
+/* HOVER ANIMATIONS */
+.box2:hover{
+    background-color: dodgerblue;
+}
+.box1:hover{
+    background: gray
+
+}
+.item:hover{
+    background: rgb(221, 221, 221)
+}
+/* TEXT PREVIEW */
+.text-container{
+
+    position: absolute;
+    width: 608px;
+    height: 912.95px;
+    left: 0px;
+    top: -20.47px;
+    z-index: -1;
+    
+    background: url(../img/pexels-cottonbro-4503751\ 1@2x.png) no-repeat center center/cover;
+
+}
+/* TEXT TITLE */
+.text-container2{
+    width: 672px;
+    height: 582px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 608px;
+    
+
+    
+}
+.text-title{
+    padding: 186px 72px 24px 77px;
+    margin-left: 685px;
+    color:#156963 ;
+}
+.info-text{
+    height: 96px;
+    width: 493px;
+    left: 0px;
+    top: 190px;
+    border-radius: nullpx;
+    
+    
+    margin-left: 685px;
+    padding-left: 77px;
+    margin-bottom: 110px;
+    font-size: 18px;
+}
+.main-title{
+    font-size: 68px;
+}
+/* КНОПКИ */
+.sub-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 586px;
+    height: 160px;
+    margin-left: 694px;
+    justify-content: center;
+    align-items: flex-end;
+}
+.btn1{
+    margin-left: 694px;
+    width: 266px;
+    height: 160px;
+}
+.btn1:hover{
+    background: rgba(242, 242, 242, 1); 
+}
+
+.btn2{
+    width: 320px;
+    height: 160px;
+    background: #156963;
+    color: white;
+    margin-left: 960px;
+    z-index: 1;
+    padding-top: 10px;
+    margin-top: -200px;
+    
+}
+
+.click2{
+    padding-top: 40.5px;
+    padding-left: 49px; 
+    color:  rgba(242, 242, 242, 1);
+
+}
+.plant-name2{
+    padding-left: 49px;
+    padding-top: 13.5px;
+}
+.plant-name{
+    padding-top: 14px;
+
+}
+.icon-end{
+    color:  rgb(143, 143, 143)
+    ;
+}
